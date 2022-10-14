@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="RegressionSuite">
+	<listeners>
+		<listener class-name="com.agileCrmAutomation.TestListner"></listener>
+	</listeners>
+
+	<test name="chromeRegression">
+		<classes>
+			<class name="com.agileCrmAutomation.TestCase2"></class>
+		</classes>
+	</test>
+</suite> <!-- Suite -->
